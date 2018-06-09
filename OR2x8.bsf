@@ -1,0 +1,53 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 192 160)
+	(text "OR2x8" (rect 5 0 43 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A[7..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "A[7..0]" (rect 32 24 69 38)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 32 32)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "B[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "B[7..0]" (rect 32 56 68 70)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 32 64)(line_width 3))
+	)
+	(port
+		(pt 128 48)
+		(output)
+		(text "C[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "C[7..0]" (rect 72 40 108 54)(font "Arial" (font_size 8)))
+		(line (pt 128 48)(pt 112 48)(line_width 3))
+	)
+	(drawing
+		(arc (pt 112 48)(pt 16 16)(rect -80 16 112 80))
+		(arc (pt 16 80)(pt 112 48)(rect -80 15 112 79))
+		(arc (pt 40 48)(pt 16 16)(rect -8 16 40 80))
+		(arc (pt 16 80)(pt 40 48)(rect -8 15 40 79))
+	)
+)

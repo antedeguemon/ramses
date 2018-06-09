@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jul 17 14:37:11 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : Ramses
+Top-level Entity Name : Ramses
+Family : Cyclone III
+Total logic elements : 4,292
+    Total combinational functions : 3,866
+    Dedicated logic registers : 2,048
+Total registers : 2048
+Total pins : 23
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

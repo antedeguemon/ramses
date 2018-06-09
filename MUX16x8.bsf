@@ -1,0 +1,60 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 184 176)
+	(text "MUX16x8" (rect 8 1 62 15)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 96 25 108)(font "Arial" ))
+	(port
+		(pt 48 112)
+		(input)
+		(text "sel" (rect 0 16 16 30)(font "Arial" (font_size 8)))
+		(text "sel" (rect 48 88 62 104)(font "Arial" (font_size 8))(vertical))
+		(line (pt 48 112)(pt 48 88))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "e0[7..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "e0[7..0]" (rect 32 24 74 38)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 24 32)(line_width 3))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "e1[7..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "e1[7..0]" (rect 32 64 74 78)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 24 72)(line_width 3))
+	)
+	(port
+		(pt 120 56)
+		(output)
+		(text "s[7..0]" (rect -8 0 27 14)(font "Arial" (font_size 8)))
+		(text "s[7..0]" (rect 64 48 99 62)(font "Arial" (font_size 8)))
+		(line (pt 120 56)(pt 96 56)(line_width 3))
+	)
+	(drawing
+		(line (pt 24 16)(pt 24 96))
+		(line (pt 96 40)(pt 96 72))
+		(line (pt 24 16)(pt 96 40))
+		(line (pt 24 96)(pt 96 72))
+	)
+)

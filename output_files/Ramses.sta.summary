@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -8.449
+TNS   : -15719.148
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 2.878
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -19.685
+TNS   : -360.961
+
+Type  : Slow 1200mV 85C Model Recovery 'Executa'
+Slack : -9.322
+TNS   : -147.288
+
+Type  : Slow 1200mV 85C Model Removal 'Executa'
+Slack : -5.195
+TNS   : -74.821
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : -3.363
+TNS   : -22.091
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2051.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Executa'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -7.643
+TNS   : -14224.667
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 2.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -17.661
+TNS   : -324.109
+
+Type  : Slow 1200mV 0C Model Recovery 'Executa'
+Slack : -8.410
+TNS   : -131.406
+
+Type  : Slow 1200mV 0C Model Removal 'Executa'
+Slack : -4.681
+TNS   : -67.152
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : -3.080
+TNS   : -20.047
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2051.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Executa'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -4.938
+TNS   : -9062.582
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 1.733
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -11.017
+TNS   : -204.501
+
+Type  : Fast 1200mV 0C Model Recovery 'Executa'
+Slack : -4.840
+TNS   : -75.252
+
+Type  : Fast 1200mV 0C Model Removal 'Executa'
+Slack : -2.948
+TNS   : -42.440
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : -1.921
+TNS   : -12.362
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2055.632
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Executa'
+Slack : -3.000
+TNS   : -5.185
+
+------------------------------------------------------------

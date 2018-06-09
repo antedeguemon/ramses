@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\yadjaschek\Downloads\Ramses\simulation\qsim
+vRamses
+Z1 !s100 JH4TWUQ:PC]WcNiXL1nKJ3
+Z2 I5Jf?5QnVK>=91>>c`[<842
+Z3 V?E0L=bB;?j>]K_1FOnT9o2
+Z4 dC:\Users\aluno\Desktop\Ramses\Ramses\simulation\qsim
+Z5 w1499708263
+Z6 8Ramses.vo
+Z7 FRamses.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Ramses.vo|
+Z10 o-work work -O0
+Z11 n@ramses
+!i10b 1
+!s85 0
+Z12 !s108 1499708264.822000
+Z13 !s107 Ramses.vo|
+!s101 -O0
+vRamses_vlg_check_tst
+!i10b 1
+Z14 !s100 YXmL>BZ>V[Rhn=S=Lkd^=1
+Z15 IXg@Y3`X8V1WlX`IQ[K@h33
+Z16 VU`?]CDH48hcXTn8kglm[00
+R4
+Z17 w1499708260
+Z18 8Waveform2.vwf.vt
+Z19 FWaveform2.vwf.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z20 !s108 1499708266.324000
+Z21 !s107 Waveform2.vwf.vt|
+Z22 !s90 -work|work|Waveform2.vwf.vt|
+!s101 -O0
+R10
+Z23 n@ramses_vlg_check_tst
+vRamses_vlg_sample_tst
+!i10b 1
+Z24 !s100 U?L`YkdOc7cN8N2X`[CgD3
+Z25 IlIEOKhkBlNVe`Z;YLB=aT0
+Z26 VR=`Z93_ieFRg73:7<^A?F0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@ramses_vlg_sample_tst
+vRamses_vlg_vec_tst
+!i10b 1
+Z28 !s100 1Hd>^2mi`8`IAendNLh5L3
+Z29 I;U2lF^8W2c^c]hz2ShQNH1
+Z30 VHhT<33Zea9bRdIL@Vh>lX1
+R4
+R17
+R18
+R19
+Z31 L0 229
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@ramses_vlg_vec_tst
