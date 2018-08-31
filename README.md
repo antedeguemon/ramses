@@ -6,6 +6,11 @@ Made by Vicente Merlo and Yuri Jaschek (at INF01058 / UFRGS).
 ## How to load a program
 Load your Ramses-compatible machine code on [Mem\_Ramses.vhd](https://github.com/antedeguemon/ramses/blob/master/src/Mem_Ramses.vhd), since it contains all Ramses persistent memory.
 
+Some example programs are:
+- [Sum33 for Neander, which shoud be compatible with Ramses](https://github.com/antedeguemon/ramses/blob/master/src/Mem_NeaRamsesSum33.vhd)
+- [Fibonacci sequence](https://github.com/antedeguemon/ramses/blob/master/src/Mem_RamsesFib.bsf)
+- [Asteroids simple game](https://github.com/antedeguemon/ramses/blob/master/src/Mem_Asteroide.vhd)
+
 ### Instructon Set
 
 | OPCode | Instruction |
