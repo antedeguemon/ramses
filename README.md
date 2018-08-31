@@ -1,7 +1,5 @@
 # Ramses
-A [Ramses processor](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=ramses) clone for Alteras FPGA. 
-
-Made by Vicente Merlo and Yuri Jaschek (at INF01058 / UFRGS).
+[Ramses processor](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=ramses) clone for Alteras FPGA. Made by Vicente Merlo and Yuri Jaschek (at INF01058 / UFRGS).
 
 ## How to load a program
 Load your Ramses-compatible machine code on [Mem\_Ramses.vhd](https://github.com/antedeguemon/ramses/blob/master/src/Mem_Ramses.vhd), since it contains all Ramses persistent memory.
