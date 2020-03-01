@@ -1,15 +1,19 @@
 # Ramses
-[Ramses processor](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=ramses) clone for Alteras FPGA. Made by Vicente Merlo and Yuri Jaschek (at INF01058 / UFRGS).
+*In memorian of Raul Fernando Weber.*
+
+[Ramses processor](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=ramses) clone for Alteras FPGA. 
+
+Made by Vicente Merlo and Yuri Jaschek (at INF01058 / UFRGS).
 
 ## How to load a program
-Load your Ramses-compatible machine code on [Mem\_Ramses.vhd](https://github.com/antedeguemon/ramses/blob/master/src/Mem_Ramses.vhd), since it contains all Ramses persistent memory.
+Load your Ramses-compatible machine code in [Mem\_Ramses.vhd](https://github.com/antedeguemon/ramses/blob/master/src/Mem_Ramses.vhd).
 
-Some example programs are:
+## Example programs
 - [Sum33 for Neander, which shoud be compatible with Ramses](https://github.com/antedeguemon/ramses/blob/master/src/Mem_NeaRamsesSum33.vhd)
 - [Fibonacci sequence](https://github.com/antedeguemon/ramses/blob/master/src/Mem_RamsesFib.bsf)
 - [Asteroids simple game](https://github.com/antedeguemon/ramses/blob/master/src/Mem_Asteroide.vhd)
 
-### Instructon Set
+## Instructon Set
 
 | OPCode | Instruction |
 | --- | --- |
@@ -30,7 +34,7 @@ Some example programs are:
 | 1110 | SHR r | 
 | 1111 | HLT |
 
-Source: http://www.inf.ufrgs.br/arq/wiki/doku.php?id=insramses
+[Source](http://www.inf.ufrgs.br/arq/wiki/doku.php?id=insramses).
 
 
 
